@@ -1,0 +1,71 @@
+body 
+{
+    font-family: "Segoe Print", Arial, Verdana, sans-serif;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #000000, #434343);
+    background: linear-gradient(to top, #000000, #434343);
+    color: #a0a0a0;
+    background-color: #000000;
+}
+header 
+{
+    border: 0.4em groove #484949;
+    border-radius: 1em;
+    height: 10em;
+    width: 55em;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+#titre 
+{
+    position: absolute;
+    color: #a0a0a0;
+    font-size: 0.8em;
+}
+#logo img
+{
+    width: 100px;
+    height: 100px;
+}
+/*
+#menu 
+{
+    position: relative;
+    padding-left: 1em;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    padding: 0 0 0 0;
+
+}
+
+nav a 
+{
+    color: #181818;
+    text-decoration: none;
+}
+
+nav a:hover 
+{
+    color: #858585;
+}
+.bouton_bleu
+{
+    width: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 0.2em;
+    float: right;
+    text-align: center;
+    color: #3f3e3e;
+    font-weight: bold;
+    border-radius: 0.2em;
+    background: url('images/degradeblack.png') repeat-x;
+}
+*/
