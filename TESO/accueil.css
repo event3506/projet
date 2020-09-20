@@ -87,11 +87,18 @@ nav a:hover
 }
 #menu
 {
+    margin : auto;
+    padding : 0em;
+    align-items: center;
+    border: 0.2em groove #484949;
+    width: 8em;
+    height: 50em;
     list-style-type: none;
     grid-column: 1; 
     grid-row: 2;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 .bouton_noir
 {
