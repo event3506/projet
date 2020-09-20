@@ -8,10 +8,11 @@ body
     font-family: Arial, "Arial Black", Verdana, sans-serif;
     background-color: #000000;
 }
+/* en-tete */
 header 
 {
-    height: 150px;
-    width: 900px;
+    height: 10em;
+    width: 58em;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -42,7 +43,6 @@ header
     padding-left: 20em;
     color: #a0a0a0;
 }
-/* en-tete */
 #reseau-sociaux
 {
     position: relative;
@@ -116,4 +116,37 @@ nav a:hover
 section p
 {
     text-align: justify;
+}
+/* formulaire de contacte */
+.formulaire
+{
+    width: 40em;
+    display: grid;
+    grid-template-columns: 20em 20em;
+    align-items: center;
+}
+#formulaire-01
+{
+    width: 20em;
+}
+article
+{
+    padding-left : 0.5em;
+    padding-bottom: 0.5em;
+}
+.amelio
+{
+    grid-column: 1  / span 2;
+}
+#ameliorer
+{
+    width: 52em;
+    max-width: 52em;
+    min-width: 52em;
+    min-height: 30em;
+    max-height: 30em;
+}
+#envoyer
+{
+    float: right;
 }
