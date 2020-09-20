@@ -11,61 +11,28 @@ header
 {
     border: 0.4em groove #484949;
     border-radius: 1em;
+    box-shadow: 0px 4px 4px #1111134d;
     height: 10em;
     width: 55em;
     display: flex;
-    align-items: center;
-    margin: auto;
-    position: relative;
-}
-
-#titre 
-{
-    position: absolute;
-    color: #a0a0a0;
-    font-size: 0.8em;
+    
 }
 #logo img
 {
     width: 100px;
     height: 100px;
 }
-/*
-#menu 
+#logo
 {
-    position: relative;
-    padding-left: 1em;
+    grid-column: 1;
 }
-
-nav ul 
+#titre
 {
-    list-style-type: none;
-    display: flex;
-    padding: 0 0 0 0;
-
+    grid-column: 2 / span 2;
+    grid-row: 1;
 }
-
-nav a 
+#reseau-sociaux
 {
-    color: #181818;
-    text-decoration: none;
+    grid-column: 3;
+    grid-row: 2;
 }
-
-nav a:hover 
-{
-    color: #858585;
-}
-.bouton_bleu
-{
-    width: 6em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-right: 0.2em;
-    float: right;
-    text-align: center;
-    color: #3f3e3e;
-    font-weight: bold;
-    border-radius: 0.2em;
-    background: url('images/degradeblack.png') repeat-x;
-}
-*/
